@@ -1,159 +1,145 @@
-import React from 'react'
-import WorkImg from '../assets/WorkImg.jpeg'
-import realEstate from '../assets/realestate.jpg'
+import React from "react";
+import shop from "../assets/shop.png";
+import photo from "../assets/photo-gal.png";
+import Todo from "../assets/to-do-list.png";
+import Budget from "../assets/budget.png";
 
 const Work = () => {
   return (
-    <div name="work" className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
-     <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-     <div>
-        <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>Work</p>
-        <p className='py-6'>//Check out some of my recent work</p>
-     </div>
-    
-    {/*Container */}
-     <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+    <div name="work" className="w-full md:h-screen text-[#63283f] bg-[#f0ecf0]">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+        <div className="pb-8">
+          <p className="text-4xl font-bold inline border-b-4 text-[#8892b0] border-[#f17667]">
+            Work
+          </p>
+          <p className="py-6">//Check out some of my recent work.</p>
+        </div>
 
-      {/*Grid item */}
-        <div style={{backgroundImage: `url(${WorkImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
-            
+        {/*Container */}
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+          {/*Grid item */}
+          <div
+            style={{ backgroundImage: `url(${shop})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div "
+          >
             {/*Hover Effects*/}
-           <div className='opacity-0 group-hover:opacity-100'>
-             <span className='text-2xl font-bold text-white tracking-wider'>
-             React JS Application
-             </span>
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Shopping Card React JS Application
+              </span>
 
-             <div className='pt-8 text-center'>
-                <a href='/'>
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+              <div className="pt-8 text-center">
+                <a href="https://toysshoppy.netlify.app/" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
                 </a>
 
-                <a href='/'>
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                <a
+                  href="https://github.com/alsstyles/Shopping-React-Proyect/tree/master"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
                 </a>
+              </div>
+            </div>
+          </div>
 
-             </div>
-      </div>
- </div>
-
-
-   {/*Grid item */}
-   <div style={{backgroundImage: `url(${realEstate})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
-            
+          {/*Grid item */}
+          <div
+            style={{ backgroundImage: `url(${Budget})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div "
+          >
             {/*Hover Effects*/}
-           <div className='opacity-0 group-hover:opacity-100 '>
-             <span className='text-2xl font-bold text-white tracking-wider'>
-             React JS Application
-             </span>
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Budget Calculator React JS Application
+              </span>
 
-             <div className='pt-8 text-center'>
-                <a href='/'>
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+              <div className="pt-8 text-center">
+                <a href="https://get-your-budget.netlify.app/" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
                 </a>
 
-                <a href='/'>
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                <a
+                  href="https://github.com/alsstyles/Budget-Calculator-ReactJS/tree/master"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
                 </a>
+              </div>
+            </div>
+          </div>
 
-             </div>
-      </div>
- </div>
-
-     {/*Grid item */}
-     <div style={{backgroundImage: `url(${WorkImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
-            
+          {/*Grid item */}
+          <div
+            style={{ backgroundImage: `url(${photo})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center  items-center mx-auto content-div "
+          >
             {/*Hover Effects*/}
-           <div className='opacity-0 group-hover:opacity-100'>
-             <span className='text-2xl font-bold text-white tracking-wider'>
-             React JS Application
-             </span>
+            <div className="opacity-0 group-hover:opacity-100 ">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Photo Gallery React JS Application
+              </span>
 
-             <div className='pt-8 text-center'>
-                <a href='/'>
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+              <div className="pt-8 text-center">
+                <a href="https://gallery-s.netlify.app/" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
                 </a>
 
-                <a href='/'>
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                <a
+                  href="https://github.com/alsstyles/Photo-Gallery-React/tree/master"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
                 </a>
+              </div>
+            </div>
+          </div>
 
-             </div>
-      </div>
- </div>
-
-
-   {/*Grid item */}
-   <div style={{backgroundImage: `url(${realEstate})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
-            
+          {/*Grid item */}
+          <div
+            style={{ backgroundImage: `url(${Todo})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div "
+          >
             {/*Hover Effects*/}
-           <div className='opacity-0 group-hover:opacity-100'>
-             <span className='text-2xl font-bold text-white tracking-wider'>
-             React JS Application
-             </span>
+            <div className="opacity-0 group-hover:opacity-100 ">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                To-Do-List React JS Application
+              </span>
 
-             <div className='pt-8 text-center'>
-                <a href='/'>
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+              <div className="pt-8 text-center">
+                <a href="https://als-todolist.netlify.app/" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
                 </a>
 
-                <a href='/'>
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                <a
+                  href="https://github.com/alsstyles/To-Do-ReactJS"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
                 </a>
-
-             </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
- </div>
+    </div>
+  );
+};
 
-     {/*Grid item */}
-     <div style={{backgroundImage: `url(${WorkImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
-            
-            {/*Hover Effects*/}
-           <div className='opacity-0 group-hover:opacity-100'>
-             <span className='text-2xl font-bold text-white tracking-wider'>
-             React JS Application
-             </span>
-
-             <div className='pt-8 text-center'>
-                <a href='/'>
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                </a>
-
-                <a href='/'>
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                </a>
-
-             </div>
-      </div>
- </div>
-
-
-   {/*Grid item */}
-   <div style={{backgroundImage: `url(${realEstate})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
-            
-            {/*Hover Effects*/}
-           <div className='opacity-0 group-hover:opacity-100'>
-             <span className='text-2xl font-bold text-white tracking-wider'>
-             React JS Application
-             </span>
-
-             <div className='pt-8 text-center'>
-                <a href='/'>
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                </a>
-
-                <a href='/'>
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                </a>
-
-             </div>
-      </div>
- </div>
- 
-</div>
-
-</div>
-</div>
-  )
-}
-
-export default Work
+export default Work;
