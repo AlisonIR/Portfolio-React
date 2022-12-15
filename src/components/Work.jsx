@@ -19,7 +19,7 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/*Grid item */}
           <div
-            style={{ backgroundImage: `url(${shop})` }}
+            style={{ backgroundImage: `url(${shop })` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div "
           >
             {/*Hover Effects*/}
@@ -29,7 +29,7 @@ const Work = () => {
               </span>
 
               <div className="pt-8 text-center">
-                <a href="https://toysshoppy.netlify.app/" target="_blank">
+                <a href="https://oldrare.netlify.app/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -119,7 +119,7 @@ const Work = () => {
               </span>
 
               <div className="pt-8 text-center">
-                <a href="https://als-todolist.netlify.app/" target="_blank">
+                <a href="https://plantheday.netlify.app/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
