@@ -5,10 +5,8 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-} from "react-icons/fa";
+ } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import { HiOutlineMail } from "react-icons/hi";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -52,12 +50,12 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* Hamburguer*/}
+      {/* Mobile Menu*/}
       <div onClick={handleClick} className="md:hidden z-10">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
-      {/* Mobile Menu*/}
+     
       <ul
         className={
           !nav
