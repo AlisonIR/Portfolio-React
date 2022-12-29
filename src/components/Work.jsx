@@ -25,7 +25,7 @@ const Work = () => {
             {/*Hover Effects*/}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Shopping Card React JS Application
+                Old Rare BookStore React JS Application
               </span>
 
               <div className="pt-8 text-center">
@@ -85,11 +85,11 @@ const Work = () => {
             {/*Hover Effects*/}
             <div className="opacity-0 group-hover:opacity-100 ">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Photo Gallery React JS Application
+                Pixis React JS Application
               </span>
 
               <div className="pt-8 text-center">
-                <a href="https://gallery-s.netlify.app/" target="_blank">
+                <a href="https://pixiss.netlify.app/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -115,7 +115,7 @@ const Work = () => {
             {/*Hover Effects*/}
             <div className="opacity-0 group-hover:opacity-100 ">
               <span className="text-2xl font-bold text-white tracking-wider">
-                To-Do-List React JS Application
+                Plan the Day JS Application
               </span>
 
               <div className="pt-8 text-center ">
