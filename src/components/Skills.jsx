@@ -4,6 +4,9 @@ import CSS from "../assets/css.png";
 import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import GitHub from "../assets/github.png";
+import Node from "../assets/nodejs.png";
+import Three from "../assets/three js.png"
+import Git from "../assets/git.png"
 
 function Skills() {
   return (
@@ -15,7 +18,7 @@ function Skills() {
             Skills
           </p>
           <p className="py-4">These are the technologies I've worked with.</p>
-        </div>
+        </div> 
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
@@ -36,6 +39,21 @@ function Skills() {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
             <p className="my-4">React JS</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Node} alt="HTML icon" />
+            <p className="my-4">Node JS</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Three} alt="HTML icon" />
+            <p className="my-4">Three JS</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Git} alt="HTML icon" />
+            <p className="my-4">Git</p>
           </div>
 
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">

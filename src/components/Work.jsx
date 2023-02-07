@@ -3,6 +3,7 @@ import shop from "../assets/shop.png";
 import photo from "../assets/photo-gal.png";
 import Todo from "../assets/to-do-list.png";
 import Budget from "../assets/budget.png";
+import UI from "../assets/UI.png"
 
 const Work = () => {
   return (
@@ -17,6 +18,36 @@ const Work = () => {
 
         {/*Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+
+          {/*Grid item */}
+          <div
+            style={{ backgroundImage: `url(${UI})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div "
+          >
+            {/*Hover Effects*/}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                UI Three JS Design
+              </span>
+
+              <div className="pt-8 text-center">
+                <a href="https://sphere-threejs.netlify.app" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+
+                <a href="https://github.com/alsstyles/UI-Three.js-Design/tree/master" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+
           {/*Grid item */}
           <div
             style={{ backgroundImage: `url(${shop })` }}
@@ -107,6 +138,8 @@ const Work = () => {
             </div>
           </div>
 
+          
+
           {/*Grid item */}
           <div
             style={{ backgroundImage: `url(${Todo})` }}
@@ -115,7 +148,7 @@ const Work = () => {
             {/*Hover Effects*/}
             <div className="opacity-0 group-hover:opacity-100 ">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Plan the Day JS Application
+                Plan the Day React JS Application
               </span>
 
               <div className="pt-8 text-center ">

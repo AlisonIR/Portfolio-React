@@ -18,7 +18,7 @@ const About = () => {
           </div>
           <div>
             <p>
-              I'm a self-taught web developer, who is willing to continuosly grow while staying current with the latest technologies.
+              I'm a front-end developer, who is willing to continuosly grow while staying current with the latest technologies.
               I would love to work for a team that is striving to consistently move forward.
         
             </p>
