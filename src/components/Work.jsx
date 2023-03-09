@@ -5,6 +5,7 @@ import Todo from "../assets/to-do-list.png";
 import Budget from "../assets/budget.png";
 import UI from "../assets/UI.png";
 import tasty from "../assets/tasty.png"
+import Electro from "../assets/Electroshop.png"
 
 const Work = () => {
   return (
@@ -22,6 +23,33 @@ const Work = () => {
 
         {/*Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+
+          {/*Grid item */}
+          <div
+            style={{ backgroundImage: `url(${Electro})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div "
+          >
+            {/*Hover Effects*/}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                 E-commerce created using Next.js and Sanity
+              </span>
+
+              <div className="pt-8 text-center">
+                <a href="https://electroshopoficial.netlify.app/" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+
+                <a href="https://github.com/alsstyles/ElectroShop/tree/master" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
 
           {/*Grid item */}
           <div
@@ -170,35 +198,7 @@ const Work = () => {
             </div>
           </div>
 
-          {/*Grid item */}
-          <div
-            style={{ backgroundImage: `url(${Todo})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div "
-          >
-            {/*Hover Effects*/}
-            <div className="opacity-0 group-hover:opacity-100 ">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Plan the Day React JS Application
-              </span>
-
-              <div className="pt-8 text-center ">
-                <a href="https://plantheday.netlify.app/" target="_blank">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-
-                <a
-                  href="https://github.com/alsstyles/To-Do-React/tree/master"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+         
         </div>
       </div>
     </div>
