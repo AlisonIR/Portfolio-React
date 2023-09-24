@@ -5,8 +5,12 @@ import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import GitHub from "../assets/github.png";
 import Node from "../assets/nodejs.png";
-import Three from "../assets/three js.png"
 import Git from "../assets/git.png"
+import Postgre from "../assets/postgresql-logo.png"
+import Redux from "../assets/redux.jpg"
+import Express from "../assets/express.jpg"
+import Tailwind from "../assets/tailwind.png"
+
 
 function Skills() {
   return (
@@ -47,8 +51,23 @@ function Skills() {
           </div>
 
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Three} alt="HTML icon" />
-            <p className="my-4">Three JS</p>
+            <img className="w-20 mx-auto" src={Postgre} alt="HTML icon" />
+            <p className="my-4">PostgreSQL</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Express} alt="HTML icon" />
+            <p className="my-4">Express</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Redux} alt="HTML icon" />
+            <p className="my-4">Redux</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
+            <p className="my-4">Tailwind CSS</p>
           </div>
 
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">

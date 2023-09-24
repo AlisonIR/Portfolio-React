@@ -6,7 +6,7 @@ import {
   FaGithub,
   FaLinkedin,
  } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsFillArrowDownCircleFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -105,12 +105,20 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://github.com/alsstyles" target="_blank"
+              href="https://github.com/AlisonIR" target="_blank"
             >
               Github <FaGithub size={30} />
             </a>
           </li>
 
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#483D8B]">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://drive.google.com/file/d/1BpZYutChprm8MIJRoTmK3D0O6FtlP_Je/view" target="_blank"
+            >
+              CV <BsFillArrowDownCircleFill size={30} />
+            </a>
+          </li>
          
         </ul>
       </div>
